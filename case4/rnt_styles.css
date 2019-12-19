@@ -40,12 +40,19 @@ nav li {
    background-color: rgb(128, 128, 255);
    transition: all 3s;
 }
+nav li:hover{
+   background: rgb(139, 139, 139)
+}
 
 nav li a {
    text-decoration: none;
    font-size: 0.8em;
    color: white;
    transition: all 3s;
+}
+nav li a:hover{
+   color: rgb(0, 0, 0);
+   font-size: 9em;
 }  
 
 /* Header Styles */

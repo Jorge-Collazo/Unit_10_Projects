@@ -25,6 +25,14 @@ audio{
    width: 80%;
    transition: all;
 }
+audio:hover{
+  box-shadow: rgb(200, 255, 0) 8px 8px 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 audio::-webkit-media-controls-panel{
    background-color: rgb(128, 128, 255);
 }
